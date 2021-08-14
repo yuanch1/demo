@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+<style></style>
+<script>
+    function check(){
+        if(pwd.value==""){
+            alert("请输入查询数据！")
+       
+    }
+</script>
+<body>
+    <div>
+        <form action="search.php" method="POST">
+            数据：<input type="text" name="pwd" placeholder="可输入姓名/学号/身份证号"><br>
+            <input type="submit" value="查询" onclick="check()" >
+        </form>
+    </div>
+</body>
+
+</html>
